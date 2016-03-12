@@ -1,5 +1,6 @@
-Jcuetolaw
+I heard you like sites for lawyers, bro?
 ================
+(Or your dad needs a law site badly and like he still has an AOL email, too, so you know it's bad.)
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
@@ -31,20 +32,21 @@ Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.
 Getting Started
 ---------------
 
+1. `bundle install`
+2. spin up your server
+3. test
+4. push to git
+4. deploy to heroku `git push heroku master`
+
 Documentation and Support
 -------------------------
 
 Issues
 -------------
 
-Similar Projects
-----------------
-
-Contributing
-------------
-
-Credits
--------
+It's a heroku instance. So if they're really a lawyer then why the hell not spring for hobby dynos? It's like $7 USD. That's like 0 bitcoin, bro.
 
 License
 -------
+
+CC0
