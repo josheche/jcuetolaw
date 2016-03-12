@@ -31,7 +31,7 @@
 	right: -25px;
 	border: none;
 	outline: none;
-	background: #fff;
+	background: $white;
 	width: 100%;
 	height: 40px;
 	margin: 0;
@@ -74,7 +74,7 @@
 }
 
 .sb-search-submit {
-	background: #fff; /* IE needs this */
+	background: $white; /* IE needs this */
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
     filter: alpha(opacity=0); /* IE 5-7 */
     opacity: 0;
@@ -85,7 +85,7 @@
 }
 
 .sb-icon-search {
-	color: #fff;
+	color: $white;
 	z-index: 90;
 	width:27px;
 	height:26px;
@@ -99,7 +99,7 @@
 }
 
 .sb-icon-search:before {
-	
+
 }
 
 /* Open state */
@@ -110,7 +110,7 @@
 
 .sb-search.sb-search-open .sb-icon-search,
 .no-js .sb-search .sb-icon-search {
-	color: #fff;
+	color: $white;
 	z-index: 11;
 }
 
