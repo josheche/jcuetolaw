@@ -1,7 +1,9 @@
 <!-- ============== Banner section ============== -->
   <div class="banner-structure">
     <ul>
-      <li><img src="assets/banner-1.jpg" alt="banner" /></li>
+      <li>
+        <%= image_tag "banner-1.jpg"%>
+      </li>
       <!-- <li><img src="assets/banner-1.jpg" alt="banner" /></li>
       <li><img src="assets/banner-1.jpg" alt="banner" /></li> -->
     </ul>
@@ -81,7 +83,7 @@
   <!-- /.welcom-section -->
   <!-- ============== We are Experienced section ============== -->
   <div class="experienced fixed-padding relative">
-    <div class="experienced-man"> <img src="assets/cueto-cutout.png" style="width:80%;"> </div>
+    <div class="experienced-man"> <%= image_tag  "cueto-cutout.png", style: "width:80%;"%> </div>
     <!-- /.experienced-man -->
     <div class="container">
       <div class="row">
@@ -132,7 +134,7 @@
     <div class="container">
       <div class="row">
         <div class="counter col-lg-3 col-md-3 col-sm-6 col-xs-6 w100">
-          <div class="img-box"> <img src="images/icons/c-man.png" class="pic" alt="years" /> </div>
+          <div class="img-box"> <%= fa_icon "user" %> </div>
           <!-- /.img-box -->
           <div class="adjust relative">
             <div class="timer count-title count-number" data-to="1500" data-speed="3000"></div>
@@ -141,16 +143,16 @@
           <p class="count-text ">Trusted Clients</p>
         </div>
         <div class="counter col-lg-3 col-md-3 col-sm-6 col-xs-6 w100">
-          <div class="img-box"> <img src="images/icons/c-brief.png" class="pic" alt="members" /> </div>
+          <div class="img-box"> <%= fa_icon "briefcase" %> </div>
           <!-- /.img-box -->
           <div class="adjust relative">
             <div class="timer count-title count-number" data-to="2000" data-speed="3000"></div>
             <span>+</span> </div>
           <!-- /.relative -->
-          <p class="count-text ">Successfull Cases</p>
+          <p class="count-text ">Successful Cases</p>
         </div>
         <div class="counter col-lg-3 col-md-3 col-sm-6 col-xs-6 w100">
-          <div class="img-box"> <img src="images/icons/c-star.png" class="pic" alt="projects" /> </div>
+          <div class="img-box"> <%= fa_icon "trophy" %> </div>
           <!-- /.img-box -->
           <div class="adjust relative">
             <div class="timer count-title count-number" data-to="1200" data-speed="3000"></div>
@@ -159,7 +161,7 @@
           <p class="count-text ">Honor & Awards</p>
         </div>
         <div class="counter col-lg-3 col-md-3 col-sm-6 col-xs-6 w100">
-          <div class="img-box"> <img src="images/icons/c-hand.png" class="pic" alt="certification" /> </div>
+          <div class="img-box"> <%= fa_icon "users" %> </div>
           <!-- /.img-box -->
           <div class="adjust relative">
             <div class="timer count-title count-number" data-to="1000" data-speed="3000"></div>
@@ -178,35 +180,36 @@
     <div class="container">
       <div class="row">
         <h2 class="common">Working Areas<span><b>Practice</b> areas</span></h2>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 w100"> <img src="images/practice1.jpg" alt="practice" />
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 w100"> <%= fa_icon "ambulance 4x" %>
+          <div class="text-box relative">
+            <h2>Personal Injury law</h2>
+            <p>There are many variations of passages of Lorem Ipsum
+              available, but the majority have suffered.</p>
+
+          </div>
+          <!-- /.text-box /.relative -->
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 w100"> <%= fa_icon "home 4x" %>
+          <div class="text-box relative">
+            <h2>Real Estate law</h2>
+            <p>There are many variations of passages of Lorem Ipsum
+              available, but the majority have suffered.</p>
+          </div>
+          <!-- /.text-box /.relative -->
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 w100"> <%= fa_icon "money 4x" %>
           <div class="text-box relative">
             <h2>Financial law</h2>
             <p>There are many variations of passages of Lorem Ipsum
               available, but the majority have suffered.</p>
-            <i class="fa fa-money"></i> </div>
-          <!-- /.text-box /.relative -->
-        </div>
-        <!-- /.col-lg-4 -->
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 w100"> <img src="images/practice2.jpg" alt="practice" />
-          <div class="text-box relative">
-            <h2>Business law</h2>
-            <p>There are many variations of passages of Lorem Ipsum
-              available, but the majority have suffered.</p>
-            <i class="fa fa-briefcase"></i> </div>
-          <!-- /.text-box /.relative -->
-        </div>
-        <!-- /.col-lg-4 -->
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 w100"> <img src="images/practice3.jpg" alt="practice" />
-          <div class="text-box relative">
-            <h2>Criminal law</h2>
-            <p>There are many variations of passages of Lorem Ipsum
-              available, but the majority have suffered.</p>
-            <i><img src="images/icons/hand-cuff.png" alt="hand-cuff" /></i> </div>
+          </div>
           <!-- /.text-box /.relative -->
         </div>
         <!-- /.col-lg-4 -->
         <div class="txt-center">
-          <input type="button" value="View all practice areas" />
+          <button class="btn btn-lg" style="margin-top:50px;"><%= link_to 'View all practice areas', page_path('practice-areas') %></button>
         </div>
         <!-- /.text-center -->
       </div>
@@ -215,82 +218,3 @@
     <!-- /.container -->
   </div>
   <!-- /.practice-section -->
-  <!-- ============== Testimonials section ============== -->
-  <div class="testimonials fixed-padding">
-    <div class="container">
-      <div class="row">
-        <h2 class="common">Testimonials<span>Client says</span></h2>
-        <div class="slider-wrapping">
-          <ul class="testimonial-slide">
-            <li>
-              <div class="testimonial-text">
-                <p>Lorem ipsum dolor sit met, conteturing elit. Phasellus pellentesque osure risus lacinia tristique Fusce sed massa Phasellus pellentesque.</p>
-                <span class="arrw-bg"></span> </div>
-              <!-- /.testimonial-text -->
-              <div class="client-details"> <img src="images/icons/test1.png" alt="testimonial" />
-                <h2>Larenta Dawson<span>Financial Issue</span></h2>
-              </div>
-              <!-- client-details -->
-            </li>
-            <li>
-              <div class="testimonial-text">
-                <p>Lorem ipsum dolor sit met, conteturing elit. Phasellus pellentesque osure risus lacinia tristique Fusce sed massa Phasellus pellentesque.</p>
-                <span class="arrw-bg"></span> </div>
-              <!-- /.testimonial-text -->
-              <div class="client-details"> <img src="images/icons/test2.png" alt="testimonial" />
-                <h2>Jimi Anderson<span>Business Issue</span></h2>
-              </div>
-              <!-- client-details -->
-            </li>
-            <li>
-              <div class="testimonial-text">
-                <p>Lorem ipsum dolor sit met, conteturing elit. Phasellus pellentesque osure risus lacinia tristique Fusce sed massa Phasellus pellentesque.</p>
-                <span class="arrw-bg"></span> </div>
-              <!-- /.testimonial-text -->
-              <div class="client-details"> <img src="images/icons/test3.png" alt="testimonial" />
-                <h2>John Boson<span>Car Accident Issue</span></h2>
-              </div>
-              <!-- client-details -->
-            </li>
-          </ul>
-        </div>
-        <!-- /.slider-wrapping -->
-      </div>
-      <!-- /.row -->
-    </div>
-    <!-- /.container -->
-  </div>
-  <!-- /.testimonials -->
-  <!-- ============== Our Clients section ============== -->
-  <div class="our-clients fixed-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <h2 class="common">Meet With Clients<span><b>our</b> Clients</span></h2>
-          <p>Lawyer Desk is the best lawyer firm text of the printing and type setting industry. We will give best and proper solution for your problem. We are great in our profession.Lawyer Desk is the best lawyer firm.</p>
-        </div>
-        <!-- /.col-lg-4 -->
-        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-          <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 w100"> <a href="#"><img src="images/client1.png" alt="client" /></a> </div>
-            <!-- /.col-lg-4 -->
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 w100"> <a href="#"><img src="images/client2.png" alt="client" /></a> </div>
-            <!-- /.col-lg-4 -->
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 w100"> <a href="#"><img src="images/client3.png" alt="client" /></a> </div>
-            <!-- /.col-lg-4 -->
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 w100"> <a href="#"><img src="images/client4.png" alt="client" /></a> </div>
-            <!-- /.col-lg-4 -->
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 w100"> <a href="#"><img src="images/client1.png" alt="client" /></a> </div>
-            <!-- /.col-lg-4 -->
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 w100"> <a href="#"><img src="images/client1.png" alt="client" /></a> </div>
-            <!-- /.col-lg-4 -->
-          </div>
-          <!-- /.row -->
-        </div>
-        <!-- /.col-lg-8 -->
-      </div>
-      <!-- /.row -->
-    </div>
-    <!-- /.container -->
-  </div>
-  <!-- /.our-clients -->
