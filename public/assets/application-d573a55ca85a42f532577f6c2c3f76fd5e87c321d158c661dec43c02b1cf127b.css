@@ -9009,6 +9009,11 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 }
 
 /* line 26, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+html {
+  overflow-x: hidden;
+}
+
+/* line 29, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
@@ -9016,23 +9021,23 @@ body {
   padding: 0;
 }
 
-/* line 32, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 35, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 36, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 39, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 39, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 42, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 nav ul {
   list-style: none;
 }
 
-/* line 42, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 45, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 a {
   outline: none !important;
   text-decoration: none !important;
@@ -9041,43 +9046,44 @@ a {
 /*==========================*/
 /* 	  Common Styles here	*/
 /*==========================*/
-/* line 50, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 53, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .less-right {
   padding-right: 0;
 }
 
-/* line 53, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 56, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .less-left {
   padding-left: 0;
 }
 
-/* line 56, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 59, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .right {
   float: right;
 }
 
-/* line 59, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 62, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .left {
   float: left;
 }
 
-/* line 62, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 65, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .fixed-padding {
   padding: 70px 0;
 }
 
 @media (max-width: 480px) {
-  /* line 66, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 69, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .fixed-padding {
     padding: 30px 0;
   }
 }
-/* line 70, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 73, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .relative {
   position: relative;
+  top: -4px;
 }
 
-/* line 73, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 77, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 p {
   font-size: 14px;
   color: #9b9b9b;
@@ -9086,17 +9092,17 @@ p {
   padding: 7px 0;
 }
 
-/* line 80, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 84, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .common {
   font-size: 17px;
   color: #34495E;
   padding-bottom: 20px;
   margin-bottom: 15px;
   text-transform: capitalize;
-  background: url(../images/icons/law-desk-bc.png) left bottom no-repeat;
+  background: url(law-desk-bc.png) left bottom no-repeat;
 }
 
-/* line 88, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 92, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .common span {
   display: block;
   color: #000;
@@ -9106,7 +9112,7 @@ p {
   text-transform: uppercase;
 }
 
-/* line 96, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 100, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 input[type="button"] {
   font-size: 12px;
   color: #ECECEC;
@@ -9119,124 +9125,124 @@ input[type="button"] {
   transition-duration: 1s;
 }
 
-/* line 107, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 111, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 input[type="button"]:hover {
   background: #000;
 }
 
-/* line 110, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 114, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .space10 {
   margin-bottom: 10px;
 }
 
-/* line 113, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 117, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .space20 {
   margin-bottom: 20px;
 }
 
-/* line 116, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 120, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .space30 {
   margin-bottom: 30px;
 }
 
-/* line 119, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 123, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .space40 {
   margin-bottom: 40px;
 }
 
-/* line 122, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 126, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .space50 {
   margin-bottom: 50px;
 }
 
-/* line 125, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 129, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .space60 {
   margin-bottom: 60px;
 }
 
-/* line 128, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 132, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .space70 {
   margin-bottom: 70px;
 }
 
-/* line 131, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 135, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .space80 {
   margin-bottom: 80px;
 }
 
-/* line 134, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 138, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .space90 {
   margin-bottom: 90px;
 }
 
-/* line 137, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 141, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .space100 {
   margin-bottom: 100px;
 }
 
-/* line 140, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 144, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .style2 span {
   color: #000;
   font-size: 30px;
   position: relative;
 }
 
-/* line 146, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 150, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .padding30 {
   padding: 30px 0 !important;
 }
 
-/* line 150, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 154, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .padding40 {
   padding: 40px 0 !important;
 }
 
-/* line 154, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 158, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .padding50 {
   padding: 50px 0 !important;
 }
 
-/* line 158, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 162, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .padding60 {
   padding: 60px 0 !important;
 }
 
-/* line 162, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 166, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .padding70 {
   padding: 70px 0 !important;
 }
 
-/* line 166, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 170, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .padding-top-70 {
   padding: 70px 0 0 !important;
 }
 
-/* line 171, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 175, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .padding80 {
   padding: 80px 0 !important;
 }
 
-/* line 175, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 179, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .padding90 {
   padding: 90px 0 !important;
 }
 
-/* line 179, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 183, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .padding100 {
   padding: 100px 0 !important;
 }
 
-/* line 183, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 187, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .padding110 {
   padding: 110px 0 !important;
 }
 
-/* line 187, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 191, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .padding150 {
   padding: 150px 0 !important;
 }
 
-/* line 194, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 198, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .style1 {
   border-left: 5px solid #34495E;
   padding-left: 20px;
@@ -9244,26 +9250,26 @@ input[type="button"]:hover {
   margin-top: 10px;
 }
 
-/* line 201, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 205, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .style1 p {
   font-size: 17px;
   color: #888;
 }
 
-/* line 206, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 210, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .style1.blockquote-reverse {
   border-left: none;
   border-right: 5px solid #8dc73f;
 }
 
-/* line 211, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 215, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .style2 {
   border: none;
   padding: 0 0 0 70px;
   position: relative;
 }
 
-/* line 217, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 221, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .style2 span {
   color: #000;
   font-size: 50px;
@@ -9273,7 +9279,7 @@ input[type="button"]:hover {
   left: 0;
 }
 
-/* line 226, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 230, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .style2 p {
   font-size: 38px;
   font-weight: 100;
@@ -9282,7 +9288,7 @@ input[type="button"]:hover {
   color: #555;
 }
 
-/* line 235, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 239, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .video {
   position: relative;
   padding-bottom: 56.25%;
@@ -9290,7 +9296,7 @@ input[type="button"]:hover {
   height: 0;
 }
 
-/* line 241, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 245, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .video iframe {
   position: absolute;
   top: 0;
@@ -9299,21 +9305,21 @@ input[type="button"]:hover {
   height: 100%;
 }
 
-/* line 248, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 252, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 label {
   display: block;
   margin-bottom: 5px;
   font-size: 13px;
 }
 
-/* line 253, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 257, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .form-control {
   height: 45px;
   border-radius: 2px;
   font-size: 13px;
 }
 
-/* line 258, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 262, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .mainBtn {
   font-size: 12px;
   color: #ECECEC;
@@ -9329,19 +9335,19 @@ label {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 272, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 276, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .mainBtn:hover {
   background: #000;
   color: #ECECEC;
 }
 
 /* change border colorr to suit your needs */
-/* line 278, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 282, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 input, select {
   vertical-align: middle;
 }
 
-/* line 281, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 285, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .site-wrapper {
   float: left;
   width: 100%;
@@ -9350,38 +9356,38 @@ input, select {
 /*==========================*/
 /* 	  Header content here	*/
 /*==========================*/
-/* line 289, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 293, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 header {
   width: 100%;
   float: left;
   background: #ECECEC;
 }
 
-/* line 294, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 298, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .top-section {
   margin-bottom: 18px;
   float: left;
   width: 100%;
 }
 
-/* line 299, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 303, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .top-section, .top-section p, .top-section a {
   background: #34495E none repeat scroll 0 0;
   color: #BDC3C7;
   font-size: 13px;
 }
 
-/* line 304, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 308, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .top-section a:hover {
   color: #ECECEC;
 }
 
-/* line 307, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 311, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .top-section p {
   padding: 12px 0;
 }
 
-/* line 310, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 314, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .message {
   position: relative;
   float: left;
@@ -9389,7 +9395,7 @@ header {
   background: #414141;
 }
 
-/* line 316, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 320, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .message:before {
   content: "\f0e0";
   font-family: FontAwesome;
@@ -9399,7 +9405,7 @@ header {
   font-size: 14px;
 }
 
-/* line 324, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 328, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .phone {
   position: relative;
   float: left;
@@ -9408,7 +9414,7 @@ header {
   margin-left: 18px;
 }
 
-/* line 331, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 335, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .phone:before {
   content: "\f095";
   font-family: FontAwesome;
@@ -9418,7 +9424,7 @@ header {
   font-size: 14px;
 }
 
-/* line 339, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 343, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .login {
   position: relative;
   float: right;
@@ -9427,7 +9433,7 @@ header {
   margin-left: 2px;
 }
 
-/* line 346, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 350, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .login:before {
   content: "\f090";
   font-family: FontAwesome;
@@ -9437,7 +9443,7 @@ header {
   font-size: 14px;
 }
 
-/* line 354, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 358, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .register {
   position: relative;
   float: right;
@@ -9445,7 +9451,7 @@ header {
   background: #414141;
 }
 
-/* line 360, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 364, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .register:before {
   content: "\f044";
   font-family: FontAwesome;
@@ -9455,7 +9461,7 @@ header {
   font-size: 14px;
 }
 
-/* line 368, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 372, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .logo a {
   float: left;
   padding-bottom: 10px;
@@ -9464,55 +9470,55 @@ header {
 /*==========================*/
 /* 	  Navigation content	*/
 /*==========================*/
-/* line 376, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 380, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .bottom-navigation {
   float: left;
   width: 100%;
 }
 
-/* line 380, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 384, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .navigation .container-fluid {
   padding: 0;
 }
 
-/* line 383, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 387, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
 }
 
-/* line 387, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 391, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .navbar {
   margin-bottom: 0;
   min-height: 0;
   text-transform: uppercase;
 }
 
-/* line 392, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 396, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .navbar-nav {
   float: right;
   font-family: 'Montserrat', sans-serif;
   padding-right: 25px;
 }
 
-/* line 397, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 401, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .nav-outer .container-fluid, .navbar-collapse {
   padding: 0;
 }
 
-/* line 400, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 404, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .navbar-default .navbar-nav > li > a {
   color: #34495E;
   font-size: 13px;
   font-weight: 400;
 }
 
-/* line 405, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 409, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .navbar-nav > li > a {
   padding: 6px 18px 37px 0px;
 }
 
-/* line 409, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 413, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .navigation ul.dropdown-menu {
   padding: 0 0 0 0;
   margin: 1px 0 0 0;
@@ -9520,47 +9526,47 @@ header {
   border-radius: 0;
 }
 
-/* line 411, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 415, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   background-color: transparent;
   color: #000;
-  background: url(../images/icons/nav-bar-active.png) left 35px no-repeat;
+  background: url(nav-bar-active.png) left 35px no-repeat;
 }
 
-/* line 416, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 420, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .dropdown-menu > li > a {
   padding: 8px 10px;
   color: #ECECEC;
 }
 
-/* line 421, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 425, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: transparent;
   border-color: transparent;
 }
 
-/* line 425, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 429, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
   background-color: transparent;
   color: #23282f;
 }
 
-/* line 429, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 433, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   color: #23282f;
 }
 
-/* line 432, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 436, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .navbar-toggle {
   margin-top: 2px;
 }
 
-/* line 435, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 439, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .navigation .navbar-nav .active, .navigation .navbar-nav li a:hover {
-  background: url(../images/icons/nav-bar-active.png) left 35px no-repeat;
+  background: url(nav-bar-active.png) left 35px no-repeat;
 }
 
-/* line 439, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 443, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .dropdown-menu li a:hover {
   padding: 8px 10px;
   color: #ECECEC !important;
@@ -9570,7 +9576,7 @@ header {
 /*==========================*/
 /* 	  Banner content here	*/
 /*==========================*/
-/* line 450, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 454, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-structure {
   width: 100%;
   float: left;
@@ -9578,20 +9584,20 @@ header {
   position: relative;
 }
 
-/* line 456, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 460, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-structure li {
   list-style: none;
 }
 
-/* line 459, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 463, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-structure li img {
   width: 100%;
   float: left;
 }
 
-/* line 463, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 467, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-structure .bx-next {
-  background: url(../images/icons/banner-next.png) no-repeat;
+  background: url(banner-next.png) no-repeat;
   width: 16px;
   height: 29px;
   position: absolute;
@@ -9600,9 +9606,9 @@ header {
   z-index: 999;
 }
 
-/* line 472, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 476, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-structure .bx-prev {
-  background: url(../images/icons/banner-prev.png) no-repeat;
+  background: url(banner-prev.png) no-repeat;
   width: 16px;
   height: 29px;
   position: absolute;
@@ -9611,32 +9617,32 @@ header {
   z-index: 999;
 }
 
-/* line 481, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 485, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-structure .bx-pager-item {
   display: inline-block;
   font-size: 0px;
   margin: 0 6px;
 }
 
-/* line 486, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 490, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-structure .bx-pager-item a {
   width: 8px;
   height: 8px;
   float: left;
-  background: url(../images/icons/banner-pager.png) no-repeat;
+  background: url(banner-pager.png) no-repeat;
 }
 
-/* line 492, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 496, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-structure .bx-pager-item .active {
   width: 15px;
   height: 15px;
-  background: url(../images/icons/banner-pager-active.png) no-repeat;
+  background: url(banner-pager-active.png) no-repeat;
   position: relative;
   top: 2.1px;
   margin: 0 0px !important;
 }
 
-/* line 500, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 504, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-structure .bx-pager {
   float: left;
   width: 100%;
@@ -9646,7 +9652,7 @@ header {
   z-index: 999;
 }
 
-/* line 508, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 512, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-form {
   width: 100%;
   position: absolute;
@@ -9655,7 +9661,7 @@ header {
   left: 0;
 }
 
-/* line 515, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 519, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-form input, .banner-form textarea {
   width: 100%;
   background-color: transparent;
@@ -9668,12 +9674,12 @@ header {
   color: #ECECEC;
 }
 
-/* line 526, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 530, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-form textarea {
   min-height: 122px;
 }
 
-/* line 529, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 533, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-form h2 span {
   font-size: 24px;
   color: #ECECEC;
@@ -9682,7 +9688,7 @@ header {
   display: block;
 }
 
-/* line 536, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 540, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-form h2 {
   display: block;
   font-size: 42px;
@@ -9692,7 +9698,7 @@ header {
   padding-bottom: 26px;
 }
 
-/* line 544, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 548, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .button-banner {
   text-transform: uppercase;
   font-size: 14px;
@@ -9701,30 +9707,30 @@ header {
   color: #ECECEC;
 }
 
-/* line 551, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 555, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .button-banner:hover {
   background-color: #000 !important;
   border: 1px solid #000 !important;
 }
 
-/* line 555, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 559, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .p-left-less {
   padding-left: 8px;
 }
 
-/* line 558, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 562, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .p-right-less {
   padding-right: 8px;
 }
 
-/* line 561, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 565, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-form input::-webkit-input-placeholder {
   color: #ECECEC;
   opacity: 100 !important;
   /* for chrome */
 }
 
-/* line 565, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 569, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-form input::-moz-placeholder {
   /* Firefox 19+ */
   color: #ECECEC;
@@ -9732,21 +9738,21 @@ header {
   /* for chrome */
 }
 
-/* line 569, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 573, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-form input:-ms-input-placeholder {
   color: #ECECEC;
   opacity: 100 !important;
   /* for chrome */
 }
 
-/* line 573, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 577, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-form textarea::-webkit-input-placeholder {
   color: #ECECEC;
   opacity: 100 !important;
   /* for chrome */
 }
 
-/* line 577, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 581, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-form textarea::-moz-placeholder {
   /* Firefox 19+ */
   color: #ECECEC;
@@ -9754,14 +9760,14 @@ header {
   /* for chrome */
 }
 
-/* line 581, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 585, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-form textarea:-ms-input-placeholder {
   color: #ECECEC;
   opacity: 100 !important;
   /* for chrome */
 }
 
-/* line 585, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 589, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .slide-content {
   width: 100%;
   position: absolute;
@@ -9770,7 +9776,7 @@ header {
   left: 0;
 }
 
-/* line 592, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 596, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .slide-content h2 {
   margin: 0;
   padding: 0;
@@ -9779,7 +9785,7 @@ header {
   font-size: 20px;
 }
 
-/* line 599, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 603, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .slide-content .main_head {
   font-weight: 700;
   color: #ECECEC;
@@ -9789,28 +9795,28 @@ header {
   letter-spacing: -1px;
 }
 
-/* line 607, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 611, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .slide-content p {
   color: #ECECEC;
-  background: url(../images/icons/wt-hr.png) no-repeat left bottom;
+  background: url(wt-hr.png) no-repeat left bottom;
   padding-bottom: 20px;
 }
 
 /*==================================*/
 /* 	  welcome section styles here	*/
 /*==================================*/
-/* line 616, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 620, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .welcome-section {
   float: left;
   width: 100%;
 }
 
-/* line 620, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 624, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .law-desk input, .team-arrange input {
   margin-top: 17px;
 }
 
-/* line 623, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 627, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .law-desk h3, .team-arrange h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
@@ -9819,21 +9825,21 @@ header {
   margin: 4px 0;
 }
 
-/* line 630, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 634, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .law-desk a, .team-arrange a {
   font-size: 13px;
   color: #9d4f5f;
   text-transform: capitalize;
 }
 
-/* line 635, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 639, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .ico {
   position: relative;
   padding-left: 85px;
   margin-bottom: 35px;
 }
 
-/* line 640, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 644, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .ico {
   backface-visibility: hidden;
   box-shadow: 0 0 1px transparent;
@@ -9844,14 +9850,14 @@ header {
   vertical-align: middle;
 }
 
-/* line 649, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 653, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .ico:hover i {
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-/* line 654, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 658, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .law-desk i {
   width: 48px;
   height: 48px;
@@ -9869,7 +9875,7 @@ header {
 /*======================================*/
 /* 	  Experienced section styles here	*/
 /*======================================*/
-/* line 671, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 675, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .experienced {
   float: left;
   width: 100%;
@@ -9877,12 +9883,12 @@ header {
   background-size: 100% 100%;
 }
 
-/* line 677, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 681, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .progressbar-back-text {
   display: none;
 }
 
-/* line 680, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 684, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .experienced-man {
   position: absolute;
   width: 554px;
@@ -9892,19 +9898,19 @@ header {
   top: -45px;
 }
 
-/* line 688, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 692, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .experienced-man img {
   width: 100%;
 }
 
-/* line 691, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 695, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .progress {
   height: 17px;
   background: #6C7A89;
   border-radius: 17px;
 }
 
-/* line 696, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 700, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .progress-bar {
   background: #34495E;
   border-radius: 17px;
@@ -9915,7 +9921,7 @@ header {
   transition: width 6s ease-in-out;
 }
 
-/* line 705, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 709, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .progress-head {
   font-size: 16px;
   color: #262626;
@@ -9924,7 +9930,7 @@ header {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 712, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 716, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .progress-head span {
   font-size: 16px;
   color: #34495E;
@@ -9934,14 +9940,14 @@ header {
 /*==============================*/
 /* 	  Count section styles here	*/
 /*==============================*/
-/* line 721, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 725, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .count-section {
   float: left;
   width: 100%;
   background: #34495E;
 }
 
-/* line 726, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 730, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .counter {
   text-align: center;
   font-size: 35px;
@@ -9951,84 +9957,84 @@ header {
   padding: 30px 0;
 }
 
-/* line 734, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 738, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .counter:hover {
   background: #6C7A89;
 }
 
-/* line 737, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 741, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .counter:last-child {
   border-right: 1px solid #6C7A89;
 }
 
-/* line 740, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 744, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .adjust {
   float: left;
   width: 100%;
 }
 
-/* line 744, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 748, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .adjust > span {
   position: absolute;
   right: 51px;
   top: 1px;
 }
 
-/* line 749, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 753, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .img-box {
   height: 80px;
 }
 
-/* line 752, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 756, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .count-text {
   font-size: 16px;
   color: #ECECEC;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  background: url(../images/icons/double-dash.png) center bottom no-repeat;
+  background: url(double-dash.png) center bottom no-repeat;
   padding-bottom: 20px;
 }
 
 /*==================================*/
 /* 	  Practice section styles here	*/
 /*==================================*/
-/* line 764, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 768, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .bg_none {
   background: none !important;
 }
 
-/* line 767, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 771, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice-section {
   float: left;
   width: 100%;
 }
 
-/* line 771, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 775, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice-section .common, .recent-post .common {
   text-align: center;
   background-position: center bottom;
 }
 
-/* line 775, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 779, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice-section img {
   width: 100%;
   display: block;
 }
 
-/* line 779, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 783, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice-section .col-lg-4 {
   margin-top: 30px;
 }
 
-/* line 782, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 786, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .text-box {
   width: 100%;
   float: left;
   padding: 13px 0 10px 0;
-  background: url(../images/icons/law-desk-bc.png) no-repeat bottom left;
+  background: url(law-desk-bc.png) no-repeat bottom left;
 }
 
-/* line 788, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 792, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .text-box h2 {
   font-size: 18px;
   color: #262626;
@@ -10036,25 +10042,25 @@ header {
   padding-top: 0;
 }
 
-/* line 794, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 798, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .txt-center {
   width: 100%;
   float: left;
   text-align: center;
 }
 
-/* line 799, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 803, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .txt-center input {
   margin-top: 30px;
 }
 
-/* line 802, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 806, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .text-box p {
   position: relative;
   z-index: 2;
 }
 
-/* line 806, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 810, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .text-box i {
   font-size: 70px;
   color: #eeeeee;
@@ -10064,7 +10070,7 @@ header {
   z-index: 1;
 }
 
-/* line 814, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 818, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice-text-box {
   width: 100%;
   float: left;
@@ -10074,7 +10080,7 @@ header {
   transition: 1s ease;
 }
 
-/* line 822, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 826, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice-text-box h2 {
   font-size: 18px;
   color: #262626;
@@ -10082,25 +10088,25 @@ header {
   padding-top: 0;
 }
 
-/* line 828, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 832, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .txt-center {
   width: 100%;
   float: left;
   text-align: center;
 }
 
-/* line 833, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 837, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .txt-center input {
   margin-top: 30px;
 }
 
-/* line 836, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 840, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice-text-box p {
   position: relative;
   z-index: 2;
 }
 
-/* line 840, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 844, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice-text-box i {
   font-size: 70px;
   color: #eeeeee;
@@ -10110,28 +10116,28 @@ header {
   z-index: 1;
 }
 
-/* line 848, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 852, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .col-lg-4:hover > .practice-text-box {
   background: #34495E;
   color: #ECECEC;
 }
 
-/* line 852, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 856, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .col-lg-4:hover > .practice-text-box {
   color: #ECECEC;
 }
 
-/* line 855, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 859, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .col-lg-4:hover > .practice-text-box h2 {
   color: #ECECEC;
 }
 
-/* line 858, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 862, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .col-lg-4:hover > .practice-text-box p {
   color: #ECECEC;
 }
 
-/* line 861, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 865, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice_boxed {
   position: relative;
   border: solid 2px #d0d0d0;
@@ -10141,24 +10147,24 @@ header {
   margin-left: 50px;
 }
 
-/* line 869, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 873, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice_boxed h2 {
   text-transform: capitalize;
   font-size: 18px;
 }
 
-/* line 873, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 877, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice_boxed a {
   font-size: 13px;
   color: #000;
 }
 
-/* line 877, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 881, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice_boxed a:hover {
   color: #34495E;
 }
 
-/* line 880, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 884, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice_boxed .iconBoxed {
   height: 95px;
   width: 95px;
@@ -10173,20 +10179,20 @@ header {
   transition: 1s ease;
 }
 
-/* line 893, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 897, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice_boxed .iconBoxed i {
   font-size: 28px;
   margin-top: 35%;
 }
 
-/* line 897, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 901, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice_boxed:hover {
   border: solid 2px #34495E;
   -webkit-transition: 1s ease;
   transition: 1s ease;
 }
 
-/* line 902, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 906, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice_boxed:hover > .iconBoxed {
   background: #34495E;
   color: #ECECEC;
@@ -10194,20 +10200,20 @@ header {
   transition: 1s ease;
 }
 
-/* line 908, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 912, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice_boxed:hover > .iconBoxed:hover {
   -webkit-transition: 1s ease;
   transition: 1s ease;
 }
 
 /* legel assistance area start here*/
-/* line 914, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 918, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .legal_assistance {
-  background: #34495E url(get-free-bg.jpg) no-repeat center top;
+  background: url(get-free-bg.jpg) no-repeat center top;
   padding: 55px 0;
 }
 
-/* line 918, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 922, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .legal_assistance h2 {
   color: #ECECEC;
   font-size: 26px;
@@ -10215,7 +10221,7 @@ header {
   font-style: italic;
 }
 
-/* line 924, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 928, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .legal_assistance .btn {
   border: 0;
   text-transform: uppercase;
@@ -10224,13 +10230,13 @@ header {
 }
 
 @media (max-width: 667px) {
-  /* line 931, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 935, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .legal_assistance h2 {
     font-size: 20px;
     padding-bottom: 10px;
   }
 
-  /* line 935, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 939, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .legal_assistance {
     text-align: center;
   }
@@ -10238,14 +10244,14 @@ header {
 /*==============================*/
 /* 	  Team section styles here	*/
 /*==============================*/
-/* line 943, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 947, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .team-section {
   float: left;
   width: 100%;
   background: #6C7A89;
 }
 
-/* line 948, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 952, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .team-arrange h3 span {
   display: block;
   color: #34495E;
@@ -10253,19 +10259,19 @@ header {
   padding-top: 5px;
 }
 
-/* line 954, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 958, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .team-arrange .text-box {
   background: #ECECEC;
   padding: 15px;
   position: relative;
 }
 
-/* line 959, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 963, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .team-arrange:hover > .text-box {
   background: #ECECEC;
 }
 
-/* line 962, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 966, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .border-f {
   height: 2px;
   background: #e64e4e;
@@ -10277,7 +10283,7 @@ header {
   transition: 1s ease;
 }
 
-/* line 972, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 976, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .team-arrange:hover > .text-box > .border-f {
   content: '';
   display: block;
@@ -10289,18 +10295,18 @@ header {
   transition: 1s ease;
 }
 
-/* line 982, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 986, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .team-arrange img {
   width: 100%;
   float: left;
 }
 
-/* line 986, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 990, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .team-arrange .text-box a {
   float: left;
 }
 
-/* line 989, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 993, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .team-arrange .text-box a i {
   color: #c4c4c4;
   display: inline-block;
@@ -10312,32 +10318,32 @@ header {
 /*======================================*/
 /* 	  Recent post section styles here	*/
 /*======================================*/
-/* line 1000, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1004, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .recent-post {
   float: left;
   width: 100%;
 }
 
-/* line 1004, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1008, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .recent-post .text-box {
   background: none;
   text-transform: none;
 }
 
-/* line 1008, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1012, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .recent-post img {
   width: 100%;
   float: left;
 }
 
-/* line 1012, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1016, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .small-box {
   float: left;
   width: 100%;
   padding: 15px 0 0 0;
 }
 
-/* line 1017, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1021, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .small-box span {
   font-size: 12px;
   color: #34495E;
@@ -10345,27 +10351,27 @@ header {
   padding-left: 19px;
 }
 
-/* line 1023, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1027, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .name {
-  background: url(../images/icons/man.png) left 2px no-repeat;
+  background: url(man.png) left 2px no-repeat;
   padding: 0px 0px 6px 16px;
   width: 96px;
 }
 
-/* line 1028, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1032, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .comment {
-  background: url(../images/icons/comment.png) left 2px no-repeat;
+  background: url(comment.png) left 2px no-repeat;
   padding: 0px 0px 6px 16px;
   width: 100px;
 }
 
-/* line 1033, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1037, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .like {
-  background: url(../images/icons/like.png) left 2px no-repeat;
+  background: url(like.png) left 2px no-repeat;
   padding: 0px 0px 6px 16px;
 }
 
-/* line 1037, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1041, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .recent-post .text-box h3 {
   font-size: 18px;
   color: #262626;
@@ -10373,7 +10379,7 @@ header {
   padding-top: 15px;
 }
 
-/* line 1043, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1047, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .recent-post input {
   background: none;
   border: 1px solid #34495E;
@@ -10381,13 +10387,13 @@ header {
   margin-top: 30px;
 }
 
-/* line 1049, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1053, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .recent-post input:hover {
   color: #ECECEC;
   border: 1px solid #000;
 }
 
-/* line 1053, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1057, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .recent-post .col-lg-3 {
   margin-top: 30px;
 }
@@ -10395,27 +10401,27 @@ header {
 /*======================================*/
 /* 	  Testimonials section styles here	*/
 /*======================================*/
-/* line 1060, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1064, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .testimonials {
   float: left;
   width: 100%;
   background: #6C7A89;
 }
 
-/* line 1065, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1069, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .testimonials .common {
   text-align: center;
   background-position: center bottom;
 }
 
-/* line 1069, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1073, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .slider-wrapping {
   float: left;
   padding: 34px 15px 0 15px;
   width: 100%;
 }
 
-/* line 1074, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1078, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .testimonial-text {
   width: 100%;
   float: left;
@@ -10431,14 +10437,14 @@ header {
   box-shadow: 0 8px 6px -6px #d1d1d1;
 }
 
-/* line 1088, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1092, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .testimonial-text p {
   font-style: italic;
 }
 
-/* line 1091, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1095, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .arrw-bg {
-  background: url(../images/icons/testimonial-bg.png) no-repeat;
+  background: url(testimonial-bg.png) no-repeat;
   width: 25px;
   height: 17px;
   position: absolute;
@@ -10446,7 +10452,7 @@ header {
   bottom: -17px;
 }
 
-/* line 1099, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1103, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .client-details {
   float: left;
   width: 100%;
@@ -10454,7 +10460,7 @@ header {
   padding: 15px 15px 15px 22px;
 }
 
-/* line 1105, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1109, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .client-details h2 {
   font-size: 17px;
   text-transform: none;
@@ -10462,7 +10468,7 @@ header {
   padding: 14px 0 0 80px;
 }
 
-/* line 1111, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1115, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .client-details h2 span {
   display: block;
   color: #9d4f5f;
@@ -10470,7 +10476,7 @@ header {
   padding-top: 5px;
 }
 
-/* line 1117, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1121, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .client-details > img {
   float: left;
 }
@@ -10478,37 +10484,37 @@ header {
 /*==============================*/
 /* 	  Our clients  styles here	*/
 /*==============================*/
-/* line 1124, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1128, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our-clients {
   float: left;
   width: 100%;
   background: #34495E;
 }
 
-/* line 1129, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1133, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our-clients .common {
   color: #ECECEC;
-  background: url(../images/icons/our-clients.png) left bottom no-repeat;
+  background: url(our-clients.png) left bottom no-repeat;
 }
 
-/* line 1133, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1137, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our-clients p, .our-clients .common span {
   color: #ECECEC;
 }
 
-/* line 1136, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1140, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our-clients .col-lg-8 .w100 {
   margin-bottom: 20px;
   padding: 0 10px;
 }
 
-/* line 1140, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1144, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our-clients .col-lg-8 .col-lg-4 a, .our-clients .col-lg-8 .col-lg-4 a img {
   float: left;
   width: 100%;
 }
 
-/* line 1144, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1148, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our-clients .col-lg-8 .col-lg-4 a img {
   display: inline-block;
   vertical-align: middle;
@@ -10524,7 +10530,7 @@ header {
   transition-property: transform;
 }
 
-/* line 1158, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1162, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our-clients .col-lg-8 .col-lg-4 a img:hover {
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
@@ -10533,7 +10539,7 @@ header {
 /*==============================*/
 /* 	Footer Section styles here	*/
 /*==============================*/
-/* line 1166, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1170, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 footer {
   float: left;
   width: 100%;
@@ -10542,7 +10548,7 @@ footer {
   color: #ECECEC;
 }
 
-/* line 1173, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1177, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 footer h2 {
   font-size: 20px;
   color: #ECECEC;
@@ -10550,7 +10556,7 @@ footer h2 {
   margin: 15px 0;
 }
 
-/* line 1179, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1183, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 footer h3 {
   font-size: 28px;
   color: #ECECEC;
@@ -10558,43 +10564,43 @@ footer h3 {
   padding: 15px 0;
 }
 
-/* line 1185, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1189, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 footer p {
   padding: 0 0 12px 0;
   line-height: 30px;
 }
 
-/* line 1189, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1193, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 footer li {
   list-style: none;
   line-height: 30px;
 }
 
-/* line 1193, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1197, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 footer li a {
   color: #34495E;
   font-size: 13px;
 }
 
-/* line 1197, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1201, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 footer li a:hover {
   color: #ECECEC;
 }
 
-/* line 1200, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1204, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .custom-maid {
   width: 22%;
   float: left;
   padding: 0 15px;
 }
 
-/* line 1205, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1209, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .social-media {
   float: left;
   width: 100%;
 }
 
-/* line 1209, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1213, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .social-media a i {
   font-size: 18px;
   color: #34495E;
@@ -10605,13 +10611,13 @@ footer li a:hover {
   padding-top: 10px;
 }
 
-/* line 1218, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1222, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .social-media a i:hover {
   color: #ECECEC;
   background: #34495E;
 }
 
-/* line 1222, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1226, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .social-media a {
   float: left;
   text-align: center;
@@ -10619,50 +10625,50 @@ footer li a:hover {
   transition: all 0.3s ease-in-out 0s;
 }
 
-/* line 1228, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1232, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .social-media a:hover {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }
 
-/* line 1232, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1236, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 footer li span {
   font-size: 18px;
   color: #ECECEC;
 }
 
-/* line 1236, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1240, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 footer li {
   font-size: 14px;
   color: #ECECEC;
 }
 
-/* line 1240, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1244, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .phone-skype {
   margin-top: 24px;
 }
 
-/* line 1244, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1248, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .phone-skype li a {
   color: #34495E;
   font-size: 18px;
   font-weight: 700;
 }
 
-/* line 1250, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1254, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .bottom-strip p span {
   color: #BDC3C7;
   font-size: 14px;
 }
 
-/* line 1254, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1258, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .phone-skype li a i {
   font-size: 20px;
   color: #aeaeae;
   margin-right: 11px;
 }
 
-/* line 1259, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1263, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .bottom-strip {
   float: left;
   width: 100%;
@@ -10671,7 +10677,7 @@ footer li {
   margin-top: 70px;
 }
 
-/* line 1266, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1270, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .bottom-strip p {
   text-align: center;
   color: #BDC3C7;
@@ -10681,21 +10687,21 @@ footer li {
 /*==============================*/
 /* 	  practice page styles here	*/
 /*==============================*/
-/* line 1275, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1279, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .inner-banner, .inner-banner img {
   float: left;
   width: 100%;
   position: relative;
 }
 
-/* line 1280, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1284, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-text {
   position: absolute;
   bottom: 0;
   width: 100%;
 }
 
-/* line 1285, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1289, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .banner-strip {
   float: left;
   background: #34495E;
@@ -10703,7 +10709,7 @@ footer li {
   width: 100%;
 }
 
-/* line 1291, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1295, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .inner-banner h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
@@ -10711,44 +10717,44 @@ footer li {
   text-transform: capitalize;
 }
 
-/* line 1297, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1301, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .inner-banner a {
   font-size: 15px;
   color: #ECECEC;
-  background: url(../images/icons/slash.png) right 4px no-repeat;
+  background: url(slash.png) right 4px no-repeat;
   padding: 0 8px 0 3px;
 }
 
-/* line 1303, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1307, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .inner-banner a:last-child {
   background: none;
 }
 
-/* line 1306, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1310, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .inner-banner .col-lg-9 {
   text-align: right;
 }
 
-/* line 1309, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1313, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice-detail {
   float: left;
   width: 100%;
   padding-top: 70px;
 }
 
-/* line 1314, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1318, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice-detail img {
   float: left;
   width: 100%;
 }
 
-/* line 1318, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1322, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .practice-detail .common {
   text-align: center;
   background-position: center bottom;
 }
 
-/* line 1322, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1326, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .gray-box {
   float: right;
   width: 90%;
@@ -10756,46 +10762,46 @@ footer li {
   padding: 20px 15px 20px 80px;
 }
 
-/* line 1328, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1332, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .gray-box h2 {
   font-size: 18px;
   text-transform: capitalize;
   color: #262626;
 }
 
-/* line 1333, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1337, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .gray-box span {
   font-size: 13px;
   color: #000;
 }
 
-/* line 1337, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1341, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .full {
   float: left;
   width: 100%;
 }
 
-/* line 1341, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1345, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .full:hover .gray-box, .active .gray-box {
   border: 2px solid #34495E;
 }
 
-/* line 1344, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1348, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .full:hover .icon-coloum i, .active .icon-coloum i {
   color: #ECECEC;
 }
 
-/* line 1347, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1351, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .full:hover .gray-box span, .active .gray-box span {
   color: #34495E;
 }
 
-/* line 1350, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1354, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .full:hover .icon-coloum, .active .icon-coloum {
   background: url(../images/icons/practice-bg-hover.png) left top no-repeat;
 }
 
-/* line 1353, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1357, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .icon-coloum {
   width: 113px;
   height: 95px;
@@ -10807,7 +10813,7 @@ footer li {
   display: table;
 }
 
-/* line 1363, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1367, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .icon-coloum i {
   font-size: 30px;
   color: #000;
@@ -10816,12 +10822,12 @@ footer li {
   padding-right: 12px;
 }
 
-/* line 1370, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1374, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .m-top {
   margin-top: 30px;
 }
 
-/* line 1373, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1377, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .get-free {
   float: left;
   width: 100%;
@@ -10830,7 +10836,7 @@ footer li {
   padding: 47px 0 0 0;
 }
 
-/* line 1380, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1384, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .get-free h2 {
   font-size: 25px;
   font-style: italic;
@@ -10841,7 +10847,7 @@ footer li {
   float: left;
 }
 
-/* line 1389, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1393, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .get-free input {
   color: #000;
   background: #ECECEC;
@@ -10854,23 +10860,23 @@ footer li {
 /* 	  Media Query styles here	*/
 /*==============================*/
 @media (min-width: 1201px) {
-  /* line 1404, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1408, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .banner-structure li img {
     height: 100vh;
   }
 
-  /* line 1407, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1411, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .dropdown-menu {
     border: none;
     box-shadow: none;
   }
 
-  /* line 1411, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1415, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .sidebar-nav {
     padding: 9px 0;
   }
 
-  /* line 1414, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1418, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .dropdown-menu .sub-menu {
     left: 100%;
     position: absolute;
@@ -10879,22 +10885,22 @@ footer li {
     margin-top: -1px;
   }
 
-  /* line 1421, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1425, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .dropdown-menu li:hover .sub-menu {
     visibility: visible;
   }
 
-  /* line 1424, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1428, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .dropdown:hover .dropdown-menu {
     display: block;
   }
 
-  /* line 1427, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1431, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
     margin-top: 0;
   }
 
-  /* line 1430, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1434, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .navbar .sub-menu:before {
     border-bottom: 7px solid transparent;
     border-left: none;
@@ -10904,7 +10910,7 @@ footer li {
     top: 10px;
   }
 
-  /* line 1438, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1442, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .navbar .sub-menu:after {
     border-top: 6px solid transparent;
     border-left: none;
@@ -10917,28 +10923,28 @@ footer li {
 }
 /* End query */
 @media (max-width: 1200px) {
-  /* line 1449, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1453, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .dropdown-menu {
     box-shadow: none !important;
     border: none;
   }
 
-  /* line 1453, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1457, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .navigation .navbar-nav .active, .navigation .navbar-nav li a:hover {
     background-position: 2px 35px;
   }
 
-  /* line 1456, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1460, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .experienced-man {
     left: 2%;
   }
 
-  /* line 1459, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1463, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .vanish {
     display: none;
   }
 
-  /* line 1462, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1466, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .get-free {
     margin-top: 30px;
   }
@@ -10946,106 +10952,106 @@ footer li {
 /* End query */
 /* End query */
 @media (max-width: 992px) {
-  /* line 1469, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1473, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .navbar-nav > li > a {
     padding: 6px 13px 25px;
   }
 
-  /* line 1472, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1476, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .logo img {
     width: 100%;
   }
 
-  /* line 1475, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1479, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .navbar-default .navbar-nav > li > a {
     font-size: 11px;
   }
 
-  /* line 1478, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1482, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .navbar-nav > li > a {
     padding: 6px 9px 25px;
   }
 
-  /* line 1481, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1485, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .navigation .navbar-nav .active, .navigation .navbar-nav li a:hover {
     background-position: 10px 35px;
   }
 
-  /* line 1484, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1488, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .banner-structure .bx-next {
     right: 1%;
   }
 
-  /* line 1487, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1491, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .banner-structure .bx-prev {
     left: 1%;
   }
 
-  /* line 1490, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1494, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .experienced-man {
     display: none;
   }
 
-  /* line 1493, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1497, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .team-arrange h3 {
     font-size: 14px;
   }
 
-  /* line 1496, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1500, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .team-arrange h3 span {
     font-size: 11px;
   }
 
-  /* line 1499, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1503, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .team-arrange .text-box a i {
     font-size: 14px;
     margin: 24px 14px 8px 0;
   }
 
-  /* line 1503, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1507, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .counter:nth-child(2) {
     border-right: 1px solid #6C7A89;
   }
 
-  /* line 1506, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1510, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .custom-maid, .syc {
     width: 50%;
     float: left;
   }
 
-  /* line 1510, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1514, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   footer {
     background-size: 100% 100%;
   }
 
-  /* line 1513, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1517, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .banner-form h2 {
     font-size: 27px;
   }
 
-  /* line 1516, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1520, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .banner-form {
     top: 10%;
   }
 }
 /* End query */
 @media (max-width: 800px) {
-  /* line 1521, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1525, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .banner-form {
     top: 8%;
   }
 
-  /* line 1524, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1528, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .banner-form h2 {
     font-size: 19px;
   }
 
-  /* line 1527, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1531, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .banner-form h2 span {
     font-size: 20px;
   }
 
-  /* line 1530, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1534, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .banner-structure .bx-pager {
     margin-top: -42px;
   }
@@ -11053,28 +11059,28 @@ footer li {
 /* End query */
 /* End query */
 @media (max-width: 767px) {
-  /* line 1537, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1541, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .navbar-default .navbar-collapse {
     padding: 0 15px;
   }
 
-  /* line 1540, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1544, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .navbar-nav {
     float: left;
     padding-left: 15px;
   }
 
-  /* line 1544, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1548, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .navbar-nav > li > a {
     padding-bottom: 7px;
   }
 
-  /* line 1547, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1551, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .navigation {
     position: relative;
   }
 
-  /* line 1550, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1554, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .logo a {
     z-index: 999;
     display: block;
@@ -11082,73 +11088,71 @@ footer li {
     position: relative;
   }
 
-  /* line 1556, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1560, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .navigation .in {
     position: relative;
   }
 
-  /* line 1559, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1563, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .sb-search {
     top: 10px;
     right: 22px;
   }
 
-  /* line 1563, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1567, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .navbar-default .navbar-nav > li > a {
     font-size: 13px;
   }
 
-  /* line 1566, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1570, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .navigation .navbar-nav .active, .navigation .navbar-nav li a:hover {
     background-position: 10px bottom;
   }
 
-  /* line 1569, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1573, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .banner-structure .bx-wrapper {
     position: relative;
   }
 
-  /* line 1572, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1576, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .banner-structure .bx-next {
     right: 3%;
   }
 
-  /* line 1575, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1579, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .banner-structure .bx-prev {
     left: 3%;
   }
 
-  /* line 1578, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1582, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .banner-form {
-    background: #000;
     float: left;
     padding: 27px 0 15px;
-    position: static;
     margin-top: -1px;
   }
 
-  /* line 1585, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1587, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .law-desk input, .team-arrange input {
     margin-bottom: 30px;
   }
 
-  /* line 1588, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1590, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .our-clients p, .team-arrange {
     margin-bottom: 30px;
   }
 
-  /* line 1591, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1593, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .icon-coloum {
     left: 30px;
     top: 18%;
   }
 
-  /* line 1595, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1597, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .gray-box {
     padding-left: 97px;
   }
 
-  /* line 1598, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1600, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .banner-text {
     position: static;
     float: left;
@@ -11158,63 +11162,63 @@ footer li {
 /* End query */
 /* End query */
 @media (max-width: 568px) {
-  /* line 1608, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1610, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .top-section, .top-section p, .top-section a {
     font-size: 11px;
   }
 
-  /* line 1611, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1613, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .custom-maid, .syc {
     width: 100%;
     float: left;
   }
 
-  /* line 1615, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1617, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .get-free h2 {
     font-size: 16px;
     padding-top: 9px;
   }
 
-  /* line 1619, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1621, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .slider-wrapping .bx-viewport {
     height: 271px !important;
   }
 }
 /* End query */
 @media (max-width: 480px) {
-  /* line 1624, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1626, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .w100 {
     width: 100%;
     float: left;
   }
 
-  /* line 1628, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1630, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .register, .login {
     float: none;
     display: inline-block;
   }
 
-  /* line 1632, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1634, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .login {
     margin: 0 10px 0 0;
   }
 
-  /* line 1635, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1637, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .p-right-less, .p-left-less {
     padding: 0 15px;
   }
 
-  /* line 1638, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1640, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .adjust > span {
     right: 32%;
   }
 
-  /* line 1641, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1643, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .our-clients .col-lg-8 .w100 {
     padding: 0 15px;
   }
 
-  /* line 1644, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1646, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .icon-coloum {
     height: 56px;
     width: 71px;
@@ -11222,23 +11226,23 @@ footer li {
     top: 32%;
   }
 
-  /* line 1650, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1652, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .gray-box {
     padding-left: 70px;
   }
 
-  /* line 1653, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1655, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .inner-banner .col-lg-9 {
     text-align: left;
   }
 
-  /* line 1656, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1658, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .get-free {
     padding-top: 22px;
     text-align: center;
   }
 
-  /* line 1660, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1662, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .get-free h2 {
     text-align: center;
     float: none;
@@ -11247,14 +11251,14 @@ footer li {
 }
 /* End query */
 @media (max-width: 380px) {
-  /* line 1667, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1669, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .adjust > span {
     right: 28%;
   }
 }
 /* End query */
 @media (max-width: 360px) {
-  /* line 1672, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1674, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .adjust > span {
     right: 27%;
   }
@@ -11263,14 +11267,14 @@ footer li {
 /*==============================*/
 /* 	  inner showcase styles here	*/
 /*==============================*/
-/* line 1682, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1684, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .inner_showcase {
   background: #34495E;
   padding: 20px 0;
   color: #ECECEC;
 }
 
-/* line 1687, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1689, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .heading {
   font-size: 22px;
   text-transform: uppercase;
@@ -11278,7 +11282,7 @@ footer li {
   color: #ECECEC;
 }
 
-/* line 1693, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1695, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 ol.breadcrumb {
   background: none;
   font-size: 13px;
@@ -11286,12 +11290,12 @@ ol.breadcrumb {
   padding: 0;
 }
 
-/* line 1699, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1701, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 ol.breadcrumb a {
   color: #ECECEC;
 }
 
-/* line 1702, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1704, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 ol.breadcrumb li.active {
   color: #ECECEC;
 }
@@ -11299,37 +11303,37 @@ ol.breadcrumb li.active {
 /*==============================*/
 /* 	  blog page styles here	*/
 /*==============================*/
-/* line 1709, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1711, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .side-widget h4 {
   text-transform: uppercase;
   margin: 0 0 20px;
   font-size: 15px;
 }
 
-/* line 1714, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1716, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .cat-list li {
   border-bottom: 1px solid #f1f1f1;
   padding: 10px 0;
 }
 
-/* line 1718, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1720, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .cat-list li:last-child {
   border-bottom: none;
   padding: 10px 0 0;
 }
 
-/* line 1722, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1724, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .cat-list li a {
   color: #000;
   font-size: 13px;
 }
 
-/* line 1726, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1728, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .cat-list li a:hover {
   color: #34495E;
 }
 
-/* line 1729, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1731, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .cat-list li i {
   float: right;
   font-size: 10px;
@@ -11337,46 +11341,46 @@ ol.breadcrumb li.active {
   top: 7px;
 }
 
-/* line 1737, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1739, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .popular-post li {
   display: table;
   margin: 0 0 20px;
 }
 
-/* line 1741, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1743, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .popular-img {
   width: 60px;
   float: left;
 }
 
-/* line 1745, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1747, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .popular-desc {
   margin-left: 75px;
 }
 
-/* line 1748, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1750, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .popular-desc h5 {
   margin: 8px 0 2px;
   font-size: 13px;
 }
 
-/* line 1752, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1754, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .popular-desc h5 a {
   color: #000;
 }
 
-/* line 1755, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1757, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .popular-desc h5 a:hover {
   color: #006bb7;
 }
 
-/* line 1758, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1760, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .popular-desc span {
   color: #999;
   font-size: 13px;
 }
 
-/* line 1762, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1764, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .tag-list a {
   margin: 0 2px 6px;
   background: #333333;
@@ -11387,17 +11391,17 @@ ol.breadcrumb li.active {
   letter-spacing: 1px;
 }
 
-/* line 1771, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1773, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .tag-list a:hover {
   background: #34495E;
 }
 
-/* line 1774, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1776, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .search-widget {
   position: relative;
 }
 
-/* line 1777, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1779, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .search-widget button {
   position: absolute;
   top: -3px;
@@ -11411,7 +11415,7 @@ ol.breadcrumb li.active {
   color: #34495E;
 }
 
-/* line 1791, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1793, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .blogpost_page_header {
   background: #000 url(p_header.jpg) no-repeat fixed center bottom;
   background-size: cover;
@@ -11419,56 +11423,56 @@ ol.breadcrumb li.active {
 }
 
 @media (max-width: 480px) {
-  /* line 1797, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1799, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .blogpost_page_header {
     padding: 40px 0 40px;
   }
 }
-/* line 1801, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1803, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 h2.post-title {
   font-size: 25px;
   text-transform: uppercase;
   margin: 0 0 5px;
 }
 
-/* line 1806, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1808, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 h2.post-title a {
   color: #000;
 }
 
-/* line 1809, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1811, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 h2.post-title a:hover {
   color: #34495E;
 }
 
-/* line 1812, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1814, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 h2.post-title-small {
   font-size: 20px;
   text-transform: uppercase;
   margin: 0 0 5px;
 }
 
-/* line 1817, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1819, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 h2.post-title-small a {
   color: #000;
 }
 
-/* line 1820, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1822, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 h2.post-title-small a:hover {
   color: #34495E;
 }
 
-/* line 1823, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1825, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .post-meta {
   margin-bottom: -10px;
 }
 
-/* line 1826, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1828, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .quote-meta .post-meta {
   margin-bottom: 5px;
 }
 
-/* line 1829, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1831, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .post-meta span {
   margin-right: 15px;
   font-size: 10px;
@@ -11477,23 +11481,23 @@ h2.post-title-small a:hover {
   color: #006bb7;
 }
 
-/* line 1836, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1838, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .post-meta span i {
   margin-right: 0px;
   color: #aaa;
 }
 
-/* line 1840, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1842, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .post-meta span a {
   color: #34495E;
 }
 
-/* line 1843, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1845, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .post-meta span a:hover {
   color: #000;
 }
 
-/* line 1846, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1848, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .blog-sep {
   height: 1px;
   border-bottom: 1px solid #e3e3e3;
@@ -11501,18 +11505,18 @@ h2.post-title-small a:hover {
   margin-bottom: 30px;
 }
 
-/* line 1852, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1854, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .quote-meta {
   padding-left: 70px;
 }
 
-/* line 1855, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1857, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .page_nav {
   display: table;
   margin: 0 auto;
 }
 
-/* line 1859, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1861, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .page_nav a {
   margin: 0 2px;
   background: #000;
@@ -11525,72 +11529,72 @@ h2.post-title-small a:hover {
   font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* line 1870, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1872, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .page_nav a:hover {
   background: #34495E;
   color: #ECECEC;
 }
 
-/* line 1876, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1878, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .blog_slider img {
   max-height: 480px !important;
 }
 
-/* line 1879, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1881, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .contact-info i {
   margin-right: 10px;
 }
 
-/* line 1882, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1884, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .map-border {
   padding: 6px;
   border: 1px solid #e5e5e5;
 }
 
-/* line 1886, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1888, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .common_page_header {
-  background: #000 url(p_header.jpg) no-repeat fixed center bottom;
+  background: #000 url(p_header.jpg) no-repeat right;
   background-size: cover;
   padding: 80px 0 80px;
 }
 
 /* contact page start*/
-/* line 1893, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1895, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .contact_page_header {
-  background: #000 url(p_header.jpg) no-repeat fixed center bottom;
+  background: #000 url(p_header.jpg) no-repeat right;
   background-size: cover;
   padding: 80px 0 80px;
 }
 
 @media (max-width: 480px) {
-  /* line 1899, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+  /* line 1901, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
   .contact_page_header {
     padding: 40px 0 40px;
   }
 }
-/* line 1903, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1905, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .contact-info {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 1910, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1912, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .contact-info li p {
   font-size: 13px !important;
 }
 
-/* line 1913, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1915, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .contact-info i {
   width: 15px;
 }
 
-/* line 1916, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1918, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .contact-info a {
   color: #34495E;
 }
 
-/* line 1919, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1921, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 #map-greyscale {
   width: 100%;
   height: 350px;
@@ -11599,24 +11603,24 @@ h2.post-title-small a:hover {
 /*======================================*/
 /* 	our specialist section styles here  */
 /*======================================*/
-/* line 1926, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1928, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities {
   background: #f6edee;
 }
 
-/* line 1931, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1933, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities .left_img_area img {
   width: 100%;
   display: block;
 }
 
-/* line 1935, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1937, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities .left_img_area .text_area {
   background: #3a3a3a;
   padding: 15px;
 }
 
-/* line 1939, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1941, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities .left_img_area .head {
   color: #ECECEC;
   font-size: 17px;
@@ -11627,7 +11631,7 @@ h2.post-title-small a:hover {
   padding: 0;
 }
 
-/* line 1948, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1950, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities .left_img_area p {
   color: #ECECEC;
   margin: 0;
@@ -11635,7 +11639,7 @@ h2.post-title-small a:hover {
   font-size: 13px;
 }
 
-/* line 1956, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1958, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities .list_head {
   font-weight: 400;
   font-size: 17px;
@@ -11644,12 +11648,12 @@ h2.post-title-small a:hover {
   color: #272727;
 }
 
-/* line 1963, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1965, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities i {
   font-size: 16px;
 }
 
-/* line 1966, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1968, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities ul {
   list-style: none;
   margin: 0;
@@ -11658,29 +11662,29 @@ h2.post-title-small a:hover {
   color: #9c9a9b;
 }
 
-/* line 1973, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1975, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities ul li {
   padding-bottom: 8px;
   padding-left: 0;
   position: relative;
 }
 
-/* line 1978, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1980, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities ul li a {
   color: #9c9a9b;
 }
 
-/* line 1981, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1983, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities ul li a:hover {
   color: #333;
 }
 
-/* line 1984, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1986, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities img {
   width: 100%;
 }
 
-/* line 1989, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1991, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities .tabBtn {
   background: #d2d2d2;
   border: 0;
@@ -11690,13 +11694,13 @@ h2.post-title-small a:hover {
   font-size: 13px;
 }
 
-/* line 1997, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 1999, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities .tabBtn:hover {
   background: #34495E;
   color: #ECECEC;
 }
 
-/* line 2001, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2003, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities .tabBtnactive {
   background: #34495E;
   border: 0;
@@ -11706,7 +11710,7 @@ h2.post-title-small a:hover {
   font-size: 13px;
 }
 
-/* line 2011, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2013, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities .progress_area .progress {
   position: relative;
   height: 20px;
@@ -11716,13 +11720,13 @@ h2.post-title-small a:hover {
   margin: 0;
 }
 
-/* line 2019, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2021, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities .progress_area .progress span.percent {
   padding-right: 15px;
   font-size: 10px;
 }
 
-/* line 2023, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2025, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .progress-bar {
   -webkit-transition: width 6s ease-in-out;
   -moz-transition: width 6s ease-in-out;
@@ -11731,7 +11735,7 @@ h2.post-title-small a:hover {
   transition: width 6s ease-in-out;
 }
 
-/* line 2030, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2032, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities .progress > .progress-type {
   position: absolute;
   left: 0px;
@@ -11742,14 +11746,14 @@ h2.post-title-small a:hover {
   font-size: 10px;
 }
 
-/* line 2039, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2041, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities .progress > .progress-completed {
   position: absolute;
   right: 0px;
   padding: 3px 0 2px;
 }
 
-/* line 2044, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2046, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities .progress_area .status {
   font-size: 11px;
   padding-top: 2px;
@@ -11758,32 +11762,32 @@ h2.post-title-small a:hover {
   padding-bottom: 4px;
 }
 
-/* line 2051, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2053, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .our_specialities .progress_area .status span {
   color: #34495E;
 }
 
-/* line 2056, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2058, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .expert_says .expertname {
   font-size: 18px;
   padding-top: 5px;
   font-weight: 700;
 }
 
-/* line 2061, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2063, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .expert_says .designation {
   font-size: 13px;
   color: #34495E;
 }
 
 /* legal assistance form start*/
-/* line 2067, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2069, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .legal-assistance-form {
   background: #333 url(../images/footer-bg.jpg) no-repeat center top fixed;
   background-size: cover;
 }
 
-/* line 2072, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2074, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .legal-women {
   position: absolute;
   width: 509px;
@@ -11793,17 +11797,17 @@ h2.post-title-small a:hover {
   top: -50px;
 }
 
-/* line 2080, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2082, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .legal-women img {
   width: 100%;
 }
 
-/* line 2085, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2087, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .legal-assistance-form h2 span {
   color: #ECECEC;
 }
 
-/* line 2088, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2090, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .legal-assistance-form input, .legal-assistance-form textarea {
   width: 100%;
   background-color: #ECECEC;
@@ -11816,12 +11820,12 @@ h2.post-title-small a:hover {
   color: #333;
 }
 
-/* line 2099, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2101, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .legal-assistance-form textarea {
   min-height: 122px;
 }
 
-/* line 2103, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2105, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .comment-avatar {
   width: 80px;
   height: 80px;
@@ -11830,44 +11834,44 @@ h2.post-title-small a:hover {
   border-radius: 50%;
 }
 
-/* line 2111, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2113, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .comment-sub {
   padding-left: 80px !important;
 }
 
-/* line 2115, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2117, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .comment-list li {
   margin: 0px 0px 20px;
   display: inline-block;
   width: 100%;
 }
 
-/* line 2121, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2123, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .comment-meta {
   margin-left: 95px;
   margin-bottom: 5px;
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
-/* line 2127, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2129, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .comment-list li p {
   margin-left: 95px;
   line-height: 21px;
 }
 
-/* line 2132, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2134, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .comment-meta a {
   color: #34495E;
 }
 
-/* line 2136, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2138, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .comment-meta em {
   font-style: normal;
   margin-left: 6px;
   font-size: 10px;
 }
 
-/* line 2142, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2144, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .reply {
   float: right;
   font-size: 9px;
@@ -11878,19 +11882,19 @@ h2.post-title-small a:hover {
   text-transform: uppercase;
 }
 
-/* line 2152, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2154, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .reply:hover {
   background: transparent !important;
   color: #34495E !important;
   border: 2px solid #34495E;
 }
 
-/* line 2158, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2160, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .no-margin-top {
   margin-top: 0px !important;
 }
 
-/* line 2162, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2164, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .prevnext .left {
   text-transform: uppercase;
   color: #000;
@@ -11899,7 +11903,7 @@ h2.post-title-small a:hover {
   font-size: 13px;
 }
 
-/* line 2170, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2172, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .prevnext .right {
   text-transform: uppercase;
   color: #000;
@@ -11910,53 +11914,53 @@ h2.post-title-small a:hover {
 
 /* legal assistance form end*/
 /*-- Attorneys single page ---*/
-/* line 2183, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2185, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .attorneys-page.section-padding {
   padding-top: 0;
 }
 
-/* line 2187, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2189, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .attorney-info .attorney-desg {
   font-size: 13px;
   text-align: center;
 }
 
-/* line 2189, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2191, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .attorney-info, .attorney-info p {
   color: #222;
   text-align: center;
 }
 
-/* line 2194, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2196, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .attorney-info .attorney-name {
   font-size: 19px;
   line-height: normal;
   margin-bottom: 0;
 }
 
-/* line 2200, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2202, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .attorney-info .social-icons i {
   margin: 0 5px 0 0;
   font-size: 13px;
 }
 
-/* line 2201, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2203, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .attorney-info .social-icons a {
   color: #34495E;
 }
 
-/* line 2205, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2207, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .attorney-info p i {
   font-size: 16px;
   margin-right: 10px;
 }
 
-/* line 2210, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2212, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .attorney-info .btn-primary {
   width: 80%;
 }
 
-/* line 2214, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2216, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .attorney-bio h3 {
   font-size: 18px;
   margin-top: 0;
@@ -11964,25 +11968,25 @@ h2.post-title-small a:hover {
 }
 
 /* Accordion */
-/* line 2223, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2225, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .panel-default > .panel-heading {
   background: none;
   border-radius: 0;
   position: relative;
 }
 
-/* line 2229, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2231, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .panel-group .panel {
   border-radius: 0;
   margin-bottom: -6px;
 }
 
-/* line 2234, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2236, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .panel.panel-default {
   margin-top: 20px;
 }
 
-/* line 2238, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2240, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 h4.panel-title {
   font-size: 14px;
   background: none;
@@ -11992,22 +11996,22 @@ h4.panel-title {
   border-radius: 0;
 }
 
-/* line 2247, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2249, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 h4.panel-title a {
   color: #34495E;
 }
 
-/* line 2251, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2253, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 h4.panel-title span {
   float: right;
 }
 
-/* line 2255, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2257, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 h4.panel-title a.collapsed {
   color: #333;
 }
 
-/* line 2259, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2261, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 h4.panel-title a:before,
 h4.panel-title a.collapsed:before {
   font-family: 'FontAwesome';
@@ -12021,29 +12025,29 @@ h4.panel-title a.collapsed:before {
   margin-top: -7px;
 }
 
-/* line 2272, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2274, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 h4.panel-title a:before {
   content: "\f077";
 }
 
-/* line 2276, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2278, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 h4.panel-title a.collapsed:before {
   content: "\f078";
 }
 
-/* line 2280, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2282, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .panel-body ul {
   padding-left: 25px;
 }
 
-/* line 2284, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2286, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .panel-group .btn.btn-primary.solid:hover {
   color: #333;
 }
 
 /* Sidebar
 ================================================== */
-/* line 2293, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2295, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .sidebar .widget-title {
   font-size: 18px;
   position: relative;
@@ -12052,7 +12056,7 @@ h4.panel-title a.collapsed:before {
   line-height: normal;
 }
 
-/* line 2301, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2303, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .sidebar .widget-title:after {
   content: '';
   width: 30px;
@@ -12063,7 +12067,7 @@ h4.panel-title a.collapsed:before {
   position: absolute;
 }
 
-/* line 2311, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2313, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .widget {
   background: #f9f9f9;
   padding: 25px;
@@ -12071,18 +12075,18 @@ h4.panel-title a.collapsed:before {
 }
 
 /* Navigation */
-/* line 2319, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2321, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .sidebar ul.nav-tabs {
   border: 0;
 }
 
-/* line 2323, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2325, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .sidebar ul.nav-tabs li.active a,
 .sidebar ul.nav-tabs li:hover a {
   color: #ff6b31 !important;
 }
 
-/* line 2328, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2330, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .sidebar ul.nav-tabs li a {
   color: #222;
   border-radius: 0;
@@ -12092,7 +12096,7 @@ h4.panel-title a.collapsed:before {
   display: inline-block;
 }
 
-/* line 2337, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2339, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .sidebar ul.nav-tabs li {
   color: #222;
   line-height: normal;
@@ -12101,12 +12105,12 @@ h4.panel-title a.collapsed:before {
   font-size: 15px;
 }
 
-/* line 2345, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2347, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .sidebar ul.nav-tabs li:last-child {
   border-bottom: 0;
 }
 
-/* line 2351, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2353, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .single-profile-page .progress-head {
   font-size: 16px;
   color: #262626;
@@ -12115,47 +12119,48 @@ h4.panel-title a.collapsed:before {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 2358, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2360, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .single-profile-page .progress-head span {
   font-size: 16px;
   color: #34495E;
   padding-left: 40px;
 }
 
-/* line 2364, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2366, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .cueto-logo a {
   font-size: 1.5em;
   letter-spacing: -2px;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Playfair+Display+SC", Arial, sans-serif;
   border-top: 3px solid #34495E;
   border-bottom: 3px solid #34495E;
   padding-top: 3px;
-  padding-bottom: 4px;
+  padding-bottom: 7px;
   color: #34495E !important;
+  white-space: nowrap;
 }
 
-/* line 2375, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2378, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 footer a {
   color: #BDC3C7;
 }
 
-/* line 2379, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2382, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 footer p {
   color: #ECECEC;
 }
 
-/* line 2383, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2386, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 blue {
   color: #34495E;
 }
 
-/* line 2389, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2392, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .container, main {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-/* line 2394, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
+/* line 2397, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .btn-lg {
   background-color: #34495E;
   text-transform: uppercase;
@@ -12182,6 +12187,8 @@ blue {
  */
 /* FONT PATH
  * -------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,100,700);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700);
 @font-face {
   font-family: 'FontAwesome';
   src: url("/assets/fontawesome-webfont-e219ece8f4d3e4ac455ef31cd3a7c7b5057ea68a109937fc26b03c6e99ee9322.eot?v=4.5.0");
