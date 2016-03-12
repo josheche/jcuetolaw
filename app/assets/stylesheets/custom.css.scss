@@ -626,13 +626,13 @@ header {
 .law-desk h3, .team-arrange h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-size:18px;
-	color:#262626;
+	color:$main-color;
 	text-transform:capitalize;
 	margin:4px 0;
 }
 .law-desk a, .team-arrange a {
 	font-size:13px;
-	color:#9d4f5f;
+	color:$secondary-color;
 	text-transform:capitalize;
 }
 .ico {
