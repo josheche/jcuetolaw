@@ -11294,7 +11294,7 @@ ol.breadcrumb li.active {
 
 /* line 1792, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .blogpost_page_header {
-  background: #000 url(p_header.jpg) no-repeat fixed center bottom;
+  background: url(p_header.jpg) no-repeat fixed center bottom;
   background-size: cover;
   padding: 80px 0 80px;
 }
@@ -11430,7 +11430,7 @@ h2.post-title-small a:hover {
 
 /* line 1887, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .common_page_header {
-  background: #000 url(p_header.jpg) no-repeat right;
+  background: url(p_header.jpg) no-repeat right;
   background-size: cover;
   padding: 80px 0 80px;
 }
@@ -11438,7 +11438,7 @@ h2.post-title-small a:hover {
 /* contact page start*/
 /* line 1894, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .contact_page_header {
-  background: #000 url(p_header.jpg) no-repeat right;
+  background: url(p_header.jpg) no-repeat right;
   background-size: cover;
   padding: 80px 0 80px;
 }
@@ -11660,7 +11660,7 @@ h2.post-title-small a:hover {
 /* legal assistance form start*/
 /* line 2068, /Users/josheche/projects/jcuetolaw/app/assets/stylesheets/custom.css.scss */
 .legal-assistance-form {
-  background: #333 url(../images/footer-bg.jpg) no-repeat center top fixed;
+  background: url(../images/footer-bg.jpg) no-repeat center top fixed;
   background-size: cover;
 }
 
