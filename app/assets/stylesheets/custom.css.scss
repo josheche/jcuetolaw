@@ -23,6 +23,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 	vertical-align:baseline;
 	background:transparent;
 }
+html {
+	overflow-x: hidden;
+}
 body {
 	font-family: 'Lato', sans-serif;
 	font-weight:400;
@@ -83,7 +86,7 @@ p {
 	padding-bottom:20px;
 	margin-bottom:15px;
 	text-transform:capitalize;
-	background:url(../images/icons/law-desk-bc.png) left bottom no-repeat;
+	background:url(law-desk-bc.png) left bottom no-repeat;
 }
 .common span {
 	display:block;
@@ -411,7 +414,7 @@ header {
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
 	background-color:transparent;
 	color:#000;
-	background:url(../images/icons/nav-bar-active.png) left 35px no-repeat;
+	background:url(nav-bar-active.png) left 35px no-repeat;
 }
 .dropdown-menu > li > a {
 	padding:8px 10px;
@@ -433,7 +436,7 @@ header {
 	margin-top:2px;
 }
 .navigation .navbar-nav .active, .navigation .navbar-nav li a:hover {
-	background:url(../images/icons/nav-bar-active.png) left 35px no-repeat;
+	background:url(nav-bar-active.png) left 35px no-repeat;
 }
 
 .dropdown-menu li a:hover {
@@ -461,7 +464,7 @@ header {
 	float:left;
 }
 .banner-structure .bx-next {
-	background:url(../images/icons/banner-next.png) no-repeat;
+	background:url(banner-next.png) no-repeat;
 	width:16px;
 	height:29px;
 	position:absolute;
@@ -470,7 +473,7 @@ header {
 	z-index:999;
 }
 .banner-structure .bx-prev {
-	background:url(../images/icons/banner-prev.png) no-repeat;
+	background:url(banner-prev.png) no-repeat;
 	width:16px;
 	height:29px;
 	position:absolute;
@@ -487,12 +490,12 @@ header {
 	width:8px;
 	height:8px;
 	float:left;
-	background:url(../images/icons/banner-pager.png) no-repeat;
+	background:url(banner-pager.png) no-repeat;
 }
 .banner-structure .bx-pager-item .active {
 	width:15px;
 	height:15px;
-	background:url(../images/icons/banner-pager-active.png) no-repeat;
+	background:url(banner-pager-active.png) no-repeat;
 	position:relative;
 	top:2.1px;
 	margin:0 0px !important;
@@ -606,7 +609,7 @@ header {
 }
 .slide-content p {
 	color:$white;
-	background:url(../images/icons/wt-hr.png) no-repeat left bottom;
+	background:url(wt-hr.png) no-repeat left bottom;
 	padding-bottom:20px;
 }
 /*==================================*/
@@ -754,7 +757,7 @@ header {
 	color:$white;
 	font-family: 'Montserrat', sans-serif;
 	text-align:center;
-	background:url(../images/icons/double-dash.png) center bottom no-repeat;
+	background:url(double-dash.png) center bottom no-repeat;
 	padding-bottom:20px;
 }
 /*==================================*/
@@ -783,7 +786,7 @@ header {
 	width:100%;
 	float:left;
 	padding:13px 0 10px 0;
-	background:url(../images/icons/law-desk-bc.png) no-repeat bottom left;
+	background:url(law-desk-bc.png) no-repeat bottom left;
 }
 .text-box h2 {
 	font-size:18px;
@@ -912,7 +915,7 @@ header {
 /* legel assistance area start here*/
 
 .legal_assistance {
-	background:$main-color url(get-free-bg.jpg) no-repeat center top;
+	background: url(get-free-bg.jpg) no-repeat center top;
 	padding:55px 0
 }
 .legal_assistance h2 {
@@ -1021,17 +1024,17 @@ text-align:center
 	padding-left:19px;
 }
 .name {
-	background:url(../images/icons/man.png) left 2px no-repeat;
+	background:url(man.png) left 2px no-repeat;
 	padding:0px 0px 6px 16px;
 	width:96px;
 }
 .comment {
-	background:url(../images/icons/comment.png) left 2px no-repeat;
+	background:url(comment.png) left 2px no-repeat;
 	padding:0px 0px 6px 16px;
 	width:100px;
 }
 .like {
-	background:url(../images/icons/like.png) left 2px no-repeat;
+	background:url(like.png) left 2px no-repeat;
 	padding:0px 0px 6px 16px;
 }
 .recent-post .text-box h3 {
@@ -1089,7 +1092,7 @@ text-align:center
 	font-style:italic;
 }
 .arrw-bg {
-	background:url(../images/icons/testimonial-bg.png) no-repeat;
+	background:url(testimonial-bg.png) no-repeat;
 	width:25px;
 	height:17px;
 	position:absolute;
@@ -1128,7 +1131,7 @@ text-align:center
 }
 .our-clients .common {
 	color:$white;
-	background:url(../images/icons/our-clients.png) left bottom no-repeat;
+	background:url(our-clients.png) left bottom no-repeat;
 }
 .our-clients p, .our-clients .common span {
 	color:$white;
@@ -1297,7 +1300,7 @@ footer li {
 .inner-banner a {
 	font-size:15px;
 	color:$white;
-	background:url(../images/icons/slash.png) right 4px no-repeat;
+	background:url(slash.png) right 4px no-repeat;
 	padding:0 8px 0 3px;
 }
 .inner-banner a:last-child {
@@ -1576,11 +1579,9 @@ right:3%;
 left:3%;
 }
 .banner-form {
-background:#000;
 float: left;
 padding: 27px 0 15px;
-position: static;
-margin-top:-1px;
+margin-top: -1px;
 }
 .law-desk input, .team-arrange input {
 margin-bottom:30px;
@@ -2370,6 +2371,7 @@ h4.panel-title a.collapsed:before {
 	padding-top: 3px;
 	padding-bottom: 4px;
 	color: $main-color !important;
+	white-space: nowrap;
 }
 
 footer a {
