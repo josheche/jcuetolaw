@@ -24,8 +24,9 @@ Ruby on Rails
 
 This application requires:
 
-- Ruby 2.2.4
-- Rails 4.2.5.1
+- Ruby 2.2.4 (for the magic)
+- Rails 4.2.5.1 (for the magic)
+- Postgres (for the database)
 
 Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
 
@@ -34,9 +35,10 @@ Getting Started
 
 1. `bundle install`
 2. spin up your server
-3. test
-4. push to git
-4. deploy to heroku `git push heroku master`
+3. test db
+4. replace my uncle's picture and info with your dad's
+5. push to git
+6. deploy to heroku `git push heroku master`
 
 Documentation and Support
 -------------------------
