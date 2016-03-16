@@ -8,6 +8,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'font-awesome-rails', '~> 4.5', '>= 4.5.0.1'
+gem 'bxslider-rails'
 group :development, :test do
   gem 'byebug'
 end
